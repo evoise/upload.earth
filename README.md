@@ -8,6 +8,12 @@
 
 A modern image hosting platform with drag & drop uploads, API access, password protection, and user management. Built with Next.js 14, TypeScript, MongoDB, and AWS S3.
 
+## Screenshots
+
+![Homepage](Screenshot1.png)
+
+![Image View](Screenshot2.png)
+
 ## Features
 
 - Drag & drop image upload with progress tracking
