@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Moon, Sun, History } from "lucide-react";
+import { Moon, Sun, History, Github } from "lucide-react";
 import { translations, type Language } from "@/lib/translations";
 
 interface NavbarProps {
@@ -107,6 +107,16 @@ export default function Navbar({
         >
           {t.pricing}
         </button>
+        <a
+          href="https://github.com/evoise/upload.earth"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 h-8 rounded-full hover:underline flex items-center justify-center gap-1.5 transition-all duration-200 text-sm font-light text-gray-900 dark:text-white"
+          aria-label="GitHub"
+        >
+          <Github className="w-4 h-4" />
+          GitHub
+        </a>
       </div>
       {currentPage === "home" && (
         <button
